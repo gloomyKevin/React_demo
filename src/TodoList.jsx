@@ -1,5 +1,8 @@
 import React, { Component, Fragment } from "react"
 import ShowTime from "./ShowTime"
+import './TodoListItem.jsx'
+import './TodoList.css'
+import TodoListItem from "./TodoListItem.jsx";
 
 class TodoList extends Component {
     constructor(props) {
@@ -17,7 +20,9 @@ class TodoList extends Component {
                 <h1>自定义组件1:TodoList</h1>
                 <h1>不要忘记哟,自定义组件首字母大写</h1>
                 <h1>以及多个标签外部需要一个整体包裹</h1>
+                <label htmlFor="insertArea">输入内容</label>
                 <input
+                    className="input"
                     type="text"
                     value={this.state.inputValue}
                     onChange={this.handleInputChange.bind(this)}
@@ -26,10 +31,9 @@ class TodoList extends Component {
                 <ul>
                     {
                         this.state.list.map((item, index) => {
-                            return <li
-                                key={index}
-                                onClick={this.handleDeleteItem.bind(this, index)}
-                            >{item}</li>
+                            return (
+                                <TodoListItem content={item} index={index} />
+                            )
                         })
                     }
                 </ul>

@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react'
-
+import './TodoList.css'
 class TodoList_2 extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            inputValue: "1",
-            list: [1, 2, 3]
+            inputValue: '',
+            list: []
         }
     }
 
@@ -34,6 +34,7 @@ class TodoList_2 extends Component {
         return (
             <Fragment>
                 <input
+                    className="input"
                     type="text"
                     value={this.inputValue}
                     onChange={this.handleInput.bind(this)}

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TodoList from './TodoList.jsx';
-import TodoList_2 from './TodoList_2.jsx'
+// import TodoList_2 from './TodoList_2.jsx'
 
 // function tick() {
 //   const ele = (
@@ -15,7 +15,7 @@ import TodoList_2 from './TodoList_2.jsx'
 // setInterval(tick, 1000);
 
 ReactDOM.render(
-  <TodoList_2 />,
+  <TodoList />,
   document.getElementById("root"));
 
 
