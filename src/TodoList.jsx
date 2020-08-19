@@ -3,6 +3,7 @@ import ShowTime from "./ShowTime"
 import './TodoListItem.jsx'
 import './TodoList.css'
 import TodoListItem from "./TodoListItem.jsx";
+import ComponentLife from './ComponentLife.jsx'
 
 class TodoList extends Component {
     constructor(props) {
@@ -38,6 +39,7 @@ class TodoList extends Component {
                     }
                 </ul>
                 <ShowTime />
+                <ComponentLife />
             </Fragment>
         )
     }
