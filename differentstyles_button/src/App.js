@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react';
 import './App.css';
+import Button from "./Button"
 
 function App() {
   return (
-    <Fragment>
-      你好
-    </Fragment>
+    <Button>
+      默认按钮
+    </Button>
   );
 }
 
