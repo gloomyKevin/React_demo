@@ -15,7 +15,7 @@ export default class TabControl extends Component {
 
         return (
             <div className="tab-control">
-                {
+                {/* {
                     // console.log(titles)
                     titles.map((item, index) => {
                         return (
@@ -26,7 +26,7 @@ export default class TabControl extends Component {
                                 {item}
                             </div>)
                     })
-                }
+                } */}
             </div >
         )
     }
