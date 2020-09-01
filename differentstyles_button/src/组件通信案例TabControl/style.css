@@ -9,4 +9,5 @@
 
 .tab-item.active{
     color: red;
+    border-bottom: 3px solid red;
 }
