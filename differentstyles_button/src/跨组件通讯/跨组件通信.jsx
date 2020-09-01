@@ -12,7 +12,7 @@ function ProfileHeader(props) {
 function Profile(props) {
     return (
         <div>
-            <ProfileHeader nickName={props.nickName} level={props.level} />
+            <ProfileHeader {...props} />
             <ul>
                 <li>设置</li>
                 <li>设置</li>
@@ -31,9 +31,9 @@ export default class 跨组件通信 extends Component {
         }
     }
     render() {
-        const { nickName, level } = this.state;
+        // const { nickName, level } = this.state;
         return (
-            <Profile nickName={nickName} level={level} />
+            <Profile {...this.state} />
         )
     }
 }
