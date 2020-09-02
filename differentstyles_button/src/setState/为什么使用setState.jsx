@@ -18,8 +18,22 @@ export default class WhyUsesetState extends Component {
     }
 
     increment() {
-        this.setState({
-            counter: this.state.counter + 1
+        // this.setState({
+        //     counter: this.state.counter + 1
+        // });
+        // this.setState({
+        //     counter: this.state.counter + 1
+        // });
+        // this.setState({
+        //     counter: this.state.counter + 1
+        // });
+        // this.setState({
+        //     counter: this.state.counter + 1
+        // });
+        this.setState((prevState, props) => {
+            return {
+                counter: prevState.counter + 1
+            }
         })
     }
 }
