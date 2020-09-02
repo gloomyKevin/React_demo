@@ -10,6 +10,7 @@ import Context from './跨组件通讯/Context-类组件';
 import WhyUsesetState from './setState/为什么使用setState';
 import setState是异步更新 from './setState/setState是异步更新';
 import setState数据的合并 from './setState/setState数据的合并';
+import 列表中keys的作用 from './setState/列表中keys的作用';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <WhyUsesetState />
       <setState是异步更新 />
       <setState数据的合并 />
+      <列表中keys的作用 />
     </Fragment>
   );
 }
