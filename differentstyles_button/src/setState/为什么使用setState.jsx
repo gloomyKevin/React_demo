@@ -13,6 +13,11 @@ export default class WhyUsesetState extends Component {
             <div>
                 <h2>当前计数:{counter}</h2>
                 <button onClick={e => this.increment()}>+1</button>
+                <ul>
+                    <li>first</li>
+                    <li>second</li>
+                    <li>third</li>
+                </ul>
             </div>
         )
     }
