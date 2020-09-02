@@ -8,6 +8,8 @@ import './组件通信案例TabControl/style.css'
 import 跨组件通信 from './跨组件通讯/跨组件通信';
 import Context from './跨组件通讯/Context-类组件';
 import WhyUsesetState from './setState/为什么使用setState';
+import setState是异步更新 from './setState/setState是异步更新';
+import setState数据的合并 from './setState/setState数据的合并';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <跨组件通信 />
       <Context />
       <WhyUsesetState />
+      <setState是异步更新 />
+      <setState数据的合并 />
     </Fragment>
   );
 }
