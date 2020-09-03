@@ -36,4 +36,11 @@ export default class 跨组件通信 extends Component {
             <Profile {...this.state} />
         )
     }
+
+    shouldComponentUpdate(nextState, nextProps) {
+        if (this.state.level !== nextState.level) {
+            return true;
+        }
+        return true;
+    }
 }

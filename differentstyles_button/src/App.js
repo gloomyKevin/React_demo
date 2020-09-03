@@ -11,6 +11,8 @@ import WhyUsesetState from './setState/为什么使用setState';
 import setState是异步更新 from './setState/setState是异步更新';
 import setState数据的合并 from './setState/setState数据的合并';
 import 列表中keys的作用 from './setState/列表中keys的作用';
+import 高阶组件memo from './setState/高阶组件memo';
+import SetState不可变的力量 from './setState/SetState不可变的力量.jsx';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
       <setState是异步更新 />
       <setState数据的合并 />
       <列表中keys的作用 />
+      <高阶组件memo />
+      <SetState不可变的力量 />
     </Fragment>
   );
 }
