@@ -4,7 +4,7 @@ export default class SetState不可变的力量 extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            friends: [
+            list: [
                 {
                     name: "kevin1", age: 18
                 }, {
@@ -17,13 +17,13 @@ export default class SetState不可变的力量 extends Component {
     }
 
     render() {
-        const { friends } = this.state;
+        const { list } = this.state;
         return (
             <div>
                 <h2>好友列表</h2>
                 <ul>
                     {
-                        friends.map((item, index) => {
+                        list.map((item, index) => {
                             return (
                                 <li key={item.name}>{item.name}</li>
                             )
@@ -36,6 +36,22 @@ export default class SetState不可变的力量 extends Component {
     }
 
     insertData() {
-        console.log('click')
+        console.log('click');
+
+        // 错误的做法
+        // const newPerson = { name: "Tom", age: 18 }
+        // this.state.list.push(newPerson);
+        // this.setState({
+        //     list: this.state.list
+        // })
+
+        // 正确的做法
+        // const newPerson = { name: "Tom", age: 18 }
+        // const newList = [...list];
+        // newList.push(newPerson);
+        // this.setState({
+        //     list: newList
+        // })
     }
+
 }
