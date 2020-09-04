@@ -15,6 +15,8 @@ import 高阶组件memo from './setState/高阶组件memo';
 import SetState不可变的力量 from './setState/SetState不可变的力量.jsx';
 import Ref from './setState/Ref';
 import 受控组件 from './setState/受控组件';
+import 高阶组件应用_props from './setState/高阶组件应用-props';
+import 高阶组件应用_props_增强Props from './setState/高阶组件应用_props_增强Props'
 
 function App() {
   return (
@@ -35,7 +37,8 @@ function App() {
       <SetState不可变的力量 />
       <Ref />
       <受控组件 /> */}
-      <
+      {/* <高阶组件应用_props /> */}
+      <高阶组件应用_props_增强Props />
     </Fragment>
   );
 }
