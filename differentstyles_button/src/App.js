@@ -17,6 +17,7 @@ import Ref from './setState/Ref';
 import 受控组件 from './setState/受控组件';
 import 高阶组件应用_props from './setState/高阶组件应用-props';
 import 高阶组件应用_props_增强Props from './setState/高阶组件应用_props_增强Props'
+import 高阶组件_Context from './setState/最终优化高阶组件&Context';
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       <Ref />
       <受控组件 /> */}
       {/* <高阶组件应用_props /> */}
-      <高阶组件应用_props_增强Props />
+      {/* <高阶组件应用_props_增强Props /> */}
+      <高阶组件_Context />
     </Fragment>
   );
 }
