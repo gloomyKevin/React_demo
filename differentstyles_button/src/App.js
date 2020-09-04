@@ -14,11 +14,12 @@ import 列表中keys的作用 from './setState/列表中keys的作用';
 import 高阶组件memo from './setState/高阶组件memo';
 import SetState不可变的力量 from './setState/SetState不可变的力量.jsx';
 import Ref from './setState/Ref';
+import 受控组件 from './setState/受控组件';
 
 function App() {
   return (
     <Fragment>
-      <Button>
+      {/* <Button>
         默认按钮
     </Button>
       <Father_to_son />
@@ -33,6 +34,8 @@ function App() {
       <高阶组件memo />
       <SetState不可变的力量 />
       <Ref />
+      <受控组件 /> */}
+      <
     </Fragment>
   );
 }

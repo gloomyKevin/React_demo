@@ -56,7 +56,7 @@ class Ref extends PureComponent {
     }
 }
 
-全局事件传递.propTypes = {
+Ref.propTypes = {
 
 };
 
