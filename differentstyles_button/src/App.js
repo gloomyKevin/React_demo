@@ -13,6 +13,7 @@ import setState数据的合并 from './setState/setState数据的合并';
 import 列表中keys的作用 from './setState/列表中keys的作用';
 import 高阶组件memo from './setState/高阶组件memo';
 import SetState不可变的力量 from './setState/SetState不可变的力量.jsx';
+import Ref from './setState/Ref';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <列表中keys的作用 />
       <高阶组件memo />
       <SetState不可变的力量 />
+      <Ref />
     </Fragment>
   );
 }
