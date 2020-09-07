@@ -1,7 +1,7 @@
 import {
     ADD_NUMBER,
     SUB_NUMBER
-} from './constants'
+} from './constants.js'
 
 export const addAction = num => ({
     type: ADD_NUMBER,
