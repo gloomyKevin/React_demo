@@ -4,6 +4,7 @@ import Counter_hooks from './counter-hooks'
 import Counter_hook from './counter-hook'
 import MultiHookState from './多状态使用'
 import ComplexHookState from './复杂状态的修改'
+import HookCounterChangeTitle from './useEffect/hook实现title的修改'
 
 export default function App() {
   return (
@@ -12,7 +13,8 @@ export default function App() {
       {/* <Counter_hooks /> */}
       {/* <Counter_hook /> */}
       {/* <MultiHookState /> */}
-      <ComplexHookState />
+      {/* <ComplexHookState /> */}
+      <HookCounterChangeTitle />
     </div>
   )
 }
